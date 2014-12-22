@@ -9,7 +9,7 @@ The file `nerlim.mbs` is derived from `merlin.mbs` ver. 4.33. When you run
 
     latex makebst
 
-you will be given a lot of questions for how you want your bibliographies to look.  In the end, you're left with a .dbj file, which you then run through `latex` to generate a new, custom bibliography style .bst file for use with BibTeX. In this process, just use `nerlim.bst` instead of `merlin.mbs` when asked.
+you will be given a lot of questions for how you want your bibliographies to look.  In the end, you're left with a .dbj file, which you then run through `latex` to generate a new, custom bibliography style .bst file for use with BibTeX. In this process, just use `nerlim.mbs` instead of `merlin.mbs` when asked.
 
 `nerlim.mbs` will generate .bst files that differ from `merlin.mbs`-derived .bst files as follows:
 
