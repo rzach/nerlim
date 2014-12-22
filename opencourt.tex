@@ -1,0 +1,19 @@
+\documentclass{article}
+\usepackage{natbib}
+\usepackage[german,english]{babel}
+
+\title{A Test for Nerlim}
+\author{Richard Zach}
+
+\newcommand{\bibdash}{---''---''---}
+
+\begin{document}
+\maketitle
+
+This file, after running Bib\TeX{} and \LaTeX{} another two times, should have a bibliography that a) displays repeaded author names using the \verb|\bibdash| command, i.e., \bibdash, b) does not break a line between a journal title and the volume number, and c) includes both author and editor for books that have both.
+
+\bibliographystyle{opencourt}
+\cite{*}
+\bibliography{opencourt}
+
+\end{document}
